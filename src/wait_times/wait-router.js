@@ -1,0 +1,32 @@
+const path = require('path')
+const express = require('express')
+const WaitService = require('./wait-service')
+
+
+const waitRouter = express.Router()
+const jsonBodyParser = express.json()
+
+waitRouter
+.route('/')
+.get((req, res, next) => {
+
+    const { hour } = req.query;
+
+    const today = new Date();
+    const date = '2020-09-22'
+   
+    
+    
+
+    WaitService.getAllWaits(
+        req.app.get('db'),
+        date,
+        hour
+    )
+    .then(waits => {
+        res.json(waits)
+    })
+    .catch(next)
+})
+
+module.exports = waitRouter;

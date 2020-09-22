@@ -1,0 +1,1 @@
+ALTER TABLE wait_times ADD COLUMN hour integer;
