@@ -28,5 +28,27 @@ waitRouter
     })
     .catch(next)
 })
+.post(jsonBodyParser, (req, res, next) => {
+    const { location_id, wait, date, hour } = req.query;
+
+    const newWait = { 
+        location_id,
+        wait,
+        date,
+        hour
+    } 
+
+    WaitService.insertWait(
+        req.app.get('db'),
+        newWait
+    )
+        .then(wait => {
+            res
+                .status(201)
+                .location(path.posix.join(req.originalUrl))
+                .json(wait)
+        })
+        .catch(next) 
+})
 
 module.exports = waitRouter;

@@ -16,6 +16,13 @@ const WaitService = {
 
          
     },
+    insertWait(db, newWait) {
+        return db
+            .insert(newWait)
+            .into('wait_times')
+            .returning('*')
+            .then(([wait]) => wait)
+    },
 }
 
 module.exports = WaitService
