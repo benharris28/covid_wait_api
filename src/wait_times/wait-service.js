@@ -13,9 +13,9 @@ const WaitService = {
             .groupBy('location_id')
             .groupBy('date')
             .groupBy('hour')
-        
 
-         
+
+
     },
     getAllWaits3(db, date, hour) {
         return db
@@ -33,30 +33,31 @@ const WaitService = {
             .groupBy('wait_times.date')
             .groupBy('wait_times.hour')
             .groupBy('locations.name')
-        
 
-         
+
+
     },
-    getAllWaits(db, date, hour) {
-        return db
-            .from('locations')
-            .select(
-                'locations.id',
-                'locations.name',
-               
-            )
-            .leftOuterJoin("wait_times", "locations.id", "wait_times.location_id")
-            .select( 'wait_times.hour',
-            db.raw('AVG(wait_times.wait) AS wait_time'))
-            .whereIn('wait_times.date', [date,null])
-            .whereIn('wait_times.hour', [hour, null])
-            .groupBy('locations.id')
-            .groupBy('wait_times.date')
-            .groupBy('wait_times.hour')
-            .groupBy('locations.name')
-        
+    getAllWaits4(db, date, hour) {
+        return db.raw(
+            `select l.id, l.name, l.address, l.link, l.hours, l.age_restrictions, l.other_details,  w.avg_wait from locations l left join (select location_id, avg(wait) as avg_wait from wait_times where hour = ${hour} and date = '${date}' group by hour, date, location_id) as w on l.id = w.location_id group by l.id, l.name, w.avg_wait`
 
-         
+
+        )
+
+
+
+    },
+    async getAllWaits(db, date, hour) {
+        const waits = await db.raw(
+            `select l.id, l.name, l.address, l.link, l.hours, l.age_restrictions, l.other_details, w.avg_wait from locations l left join (select location_id, avg(wait) as avg_wait from wait_times where hour = ${hour} and date = '${date}' group by hour, date, location_id) as w on l.id = w.location_id group by l.id, l.name, w.avg_wait`
+
+
+        )
+
+        return waits.rows
+
+
+
     },
     insertWait(db, newWait) {
         return db
