@@ -10,10 +10,7 @@ waitRouter
 .route('/')
 .get((req, res, next) => {
 
-    const { hour } = req.query;
-
-    const today = new Date();
-    const date = '2020-09-22'
+    const { date, hour } = req.query;
    
     
     
