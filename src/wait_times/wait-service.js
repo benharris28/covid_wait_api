@@ -49,7 +49,7 @@ const WaitService = {
     },
     async getAllWaits(db, date, hour) {
         const waits = await db.raw(
-            `select l.id, l.name, l.address, l.link, l.hours, l.age_restrictions, l.other_details, w.avg_wait from locations l left join (select location_id, avg(wait) as avg_wait from wait_times where hour = ${hour} and date = '${date}' group by hour, date, location_id) as w on l.id = w.location_id group by l.id, l.name, w.avg_wait`
+            `select l.id, l.name, l.address, l.address_link, l.link, l.hours, l.age_restrictions, l.other_details, w.avg_wait from locations l left join (select location_id, avg(wait) as avg_wait from wait_times where hour = ${hour} and date = '${date}' group by hour, date, location_id) as w on l.id = w.location_id group by l.id, l.name, w.avg_wait`
 
 
         )
