@@ -1,1 +1,0 @@
-GRANT ALL PRIVILEGES ON TABLE wait_times TO ben;
