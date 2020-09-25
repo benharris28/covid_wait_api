@@ -11,14 +11,16 @@ waitRouter
 .get((req, res, next) => {
 
     const { date, hour } = req.query;
-   
+   const lowHour = Number(hour - 1)
     
-    
+    console.log(hour)
+    console.log(lowHour)
 
-    WaitService.getAllWaits(
+    WaitService.getAllWaits6(
         req.app.get('db'),
         date,
-        hour
+        hour,
+        lowHour
     )
     .then(waits => {
         res.json(waits)

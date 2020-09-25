@@ -1,7 +1,111 @@
 BEGIN;
 
-insert into locations (name, address, link, hours, age_restrictions, other_details)
+insert into locations (name, address, address_link, link, hours, age_restrictions, other_details)
 values
-('Etobicoke General Hospital Drive-Thru – Humber Queen’s Plate Parking', '2 Janda Ct, Etobicoke, ON M9W 0A4', 'http://www.williamoslerhs.ca/patients-and-families/preparing-for-your-visit-or-stay/coronavirus-information-for-patients-families/assessment-centre-for-covid-19', '7 days/week; 8 a.m. to 6 p.m.', 'No children under the age of 2 years', 'None'),
-('Humber River Hospital, Reactivation Care Centre – Finch Site', '2111 Finch Ave W, North York, ON M3N 1N1',  )  
-  COMMIT;
+('Etobicoke General Hospital Drive-Thru – Humber Queen’s Plate Parking',
+'2 Janda Ct', 
+'https://www.google.com/maps/place/2+Janda+Ct,+Etobicoke,+ON+M9W+0A4/@43.7230577,-79.6032094,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3a4c47501695:0xa03984db7b4ebe84!8m2!3d43.7230577!4d-79.6010207?shorturl=1', 
+'http://www.williamoslerhs.ca/patients-and-families/preparing-for-your-visit-or-stay/coronavirus-information-for-patients-families/assessment-centre-for-covid-19', 
+'7 days/week; 8 a.m. to 6 p.m.', 
+'No children under the age of 2 years', 
+'None'
+),
+('Humber River Hospital, Reactivation Care Centre – Finch Site', 
+'2111 Finch Ave W', 
+'https://www.google.com/maps/place/2111+Finch+Ave+W,+North+York,+ON+M3N+1N1/@43.7547592,-79.5281208,17z/data=!3m1!4b1!4m5!3m4!1s0x882b30308f935813:0x113078b79ea72ef4!8m2!3d43.7547592!4d-79.5259321?shorturl=1', 
+'https://www.hrh.ca/covid-19/', 
+'Monday to Friday, 9 a.m. to 7 p.m., Saturday and Sunday, 9 a.m. to 4 p.m.', 
+'None', 
+'None'
+),
+('Michael Garron Hospital',
+'825 Coxwell Ave (outpatient clinic location in D-wing, 1st floor; accessed from Mortimer Avenue)',
+'https://www.google.com/maps/place/825+Coxwell+Ave,+East+York,+ON+M4C+3E7/@43.6898713,-79.3270469,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc67c1def687:0xb23cda866b84fb38!8m2!3d43.6898713!4d-79.3248582',
+'https://www.tehn.ca/programs-services/covid-19-assessment-centre',
+'7 days/week, 8 a.m. to 8 p.m.',
+'None',
+'None'
+),
+('Mount Sinai Hospital', 
+'600 University Ave (Ground Floor)', 
+'https://www.google.com/maps/place/600+University+Ave,+Toronto,+ON+M5G+1X5/@43.6575439,-79.3922735,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34c85d3dc4ab:0x7c41dc5ba1d1ccfc!8m2!3d43.6575439!4d-79.3900848',
+'https://www.sinaihealth.ca/coronavirus-covid-19-information/',
+'Monday to Friday: 8 am to 12 pm. – open for walk-ins, 12 p.m. to 4 p.m. – by appointment only',
+'None',
+'None'
+),
+('North York General Hospital',
+'4001 Leslie St (enter through Emergency Department)',
+'https://www.google.ca/maps/place/4001+Leslie+St,+North+York,+ON+M2K+1E1/@43.7694685,-79.3647713,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4d2bf4a48da3b:0xd5165be563f216ec!8m2!3d43.7694685!4d-79.3625826?shorturl=1',
+'https://nygh.on.ca/covid-19-updates',
+'7 days/week; 8 a.m. to 8 p.m.',
+'None',
+'None'
+),
+('North York General Hospital – Branson Site',
+'555 Finch Ave. W (North Entrance, immediately off Finch)',
+'https://www.google.com/maps/place/555+Finch+Ave+W,+North+York,+ON+M2R+2C2/@43.7724535,-79.4503248,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2deccbb70e39:0xa4732bf8ad2c9984!8m2!3d43.7724535!4d-79.4481361?shorturl=1',
+'https://nygh.on.ca/covid-19-updates',
+'7 days/week; 8 a.m. to 7 p.m.', 
+'None',
+'Dedicated front of the line service for community members who are elderly and under 12 years of age from 8:00am until 10:00am'
+),
+('Scarborough Health Network – Birchmount Hospital',
+'3030 Birchmount Rd',
+'https://www.google.com/maps/place/Scarborough+Health+Network+-+Birchmount+hospital/@43.8023229,-79.3109691,17z/data=!4m5!3m4!1s0x89d4d3c1e7f41145:0x332302f46dea0163!8m2!3d43.8017859!4d-79.3089369?shorturl=1',
+'https://www.shn.ca/covid19-assess/',
+'7 days/week; 9:00 a.m. to 5:00 p.m.',
+'No children under the age of 1 year',
+'None'
+),
+('Scarborough Health Network – Centenary Hospital',
+'2867 Ellesmere Rd',
+'https://www.google.com/maps/place/2867+Ellesmere+Rd,+Scarborough,+ON+M1E+4B9/@43.7803978,-79.2067379,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4d0848b636a0d:0x2371a3435f3724c7!8m2!3d43.7803978!4d-79.2045492?shorturl=1',
+'https://www.shn.ca/covid19-assess/',
+'7 days/week, 10 a.m. to 7 p.m.',
+'No children under the age of 1 year',
+'None'
+),
+('Sunnybrook Health Sciences Centre',
+'2075 Bayview Ave',
+'https://www.google.com/maps/place/2075+Bayview+Ave,+Toronto,+ON+M4N+3M5/@43.7228457,-79.3750636,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cd31ef6cbe8b:0x5c596deb1c21e8f3!8m2!3d43.7228457!4d-79.3728749?shorturl=1',
+'https://sunnybrook.ca/content/?page=novel-coronavirus-covid-19-assessment-centre',
+'Monday to Friday, 11 a.m. to 7:30 p.m., Saturday and Sunday, 9:30 a.m. to 5:30 p.m.',
+'No children under the age of 1 year',
+'None'
+),
+('UHN Toronto Western Hospital',
+'347 Bathurst St',
+'https://www.google.com/maps/place/347+Bathurst+St,+Toronto,+ON+M5T+2S7/@43.6525548,-79.408055,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34e88ad16b07:0x3a8d1e778f18641c!8m2!3d43.6525548!4d-79.4058663?shorturl=1',
+'https://www.uhn.ca/Covid19',
+'7 days/week; 12 p.m. to 8 p.m. (last patient accepted at 7:30 p.m.)',
+'No children under the age of 1 year',
+'None'
+),
+('Unity – St. Joseph’s Health Centre',
+'30 The Queensway - Sunnyside Building, Main Floor East',
+'https://www.google.com/maps/place/30+The+Queensway,+Toronto,+ON+M6R+1B5/@43.6406878,-79.4523261,17z/data=!3m1!4b1!4m5!3m4!1s0x882b35c9a5e053b9:0xc73b75851fb82035!8m2!3d43.6406878!4d-79.4501374?shorturl=1',
+'https://unityhealth.to/patients-and-families/coronavirus-information-for-patients-and-families/',
+'7 days/week; 8 a.m. to 8 p.m. (last patient to be registered at 7:30 p.m., or earlier if testing capacity has been reached)',
+'No children under the age of 1 year',
+'None'
+),
+('Unity – St. Michael’s Hospital',
+'38 Shuter St',
+'https://www.google.com/maps/place/38+Shuter+St,+Toronto,+ON+M5B+1A6/@43.6546657,-79.380202,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb34f254f67d:0xf687108952fcfe3c!8m2!3d43.6546657!4d-79.3780133?shorturl=1',
+'https://unityhealth.to/patients-and-families/coronavirus-information-for-patients-and-families/',
+'7 days/week; 8 a.m. to 8 p.m. (last patient to be registered at 7:30 p.m., or earlier if testing capacity has been reached)',
+'No children under 6 months of age',
+'None'
+),
+('Women’s College Hospital',
+'76 Grenville St',
+'https://www.google.com/maps/place/76+Grenville+St,+Toronto,+ON+M5S+1B2/@43.6616205,-79.3898251,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34b68f2d2bd5:0x890c005a837348c3!8m2!3d43.6616205!4d-79.3876364?shorturl=1',
+'https://www.womenscollegehospital.ca/patients-and-caregivers/updates-on-the-coronavirus-(2019-ncov)',
+'7 days/week, 8 a.m. to 8 p.m.',
+'No children under the age of 2 years',
+'None'
+);
+
+  
+COMMIT;

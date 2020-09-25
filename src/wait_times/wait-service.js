@@ -59,6 +59,18 @@ const WaitService = {
 
 
     },
+    async getAllWaits6(db, date, hour, lowHour) {
+        const waits = await db.raw(
+            `select l.id, l.name, l.address, l.address_link, l.link, l.hours, l.age_restrictions, l.other_details, w.avg_wait, w.submissions from locations l left join (select location_id, count(id) as submissions, avg(wait) as avg_wait from wait_times where hour in (${hour},${lowHour}) and date = '${date}' group by date, location_id) as w on l.id = w.location_id group by l.id, l.name, w.avg_wait, w.submissions`
+
+
+        )
+
+        return waits.rows
+
+
+
+    },
     insertWait(db, newWait) {
         return db
             .insert(newWait)
