@@ -105,7 +105,80 @@ values
 '7 days/week, 8 a.m. to 8 p.m.',
 'No children under the age of 2 years',
 'None'
-);
+),
+('Mackenzie Health - Richmond Hill Hospital',
+'10 Trench Street',
+'https://www.google.com/maps/place/10+Trench+St,+Richmond+Hill,+ON+L4C+4Z3/@43.8704455,-79.4529971,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2bcbb3532cff:0x6f50f52058634d28!8m2!3d43.8704455!4d-79.4508084',
+'https://www.mackenziehealth.ca/en/about-us/get-the-latest-information-on-covid-19.aspx',
+'Monday to Friday from 10 a.m. to 9:30 p.m., Weekends and holidays from 10 a.m. to 5:30 p.m.',
+'None',
+'Book an appointment before going in 905-883-1212 ext. 2004'
+),
+('Mackenzie Health - Assessment Centre in Vaughan ',
+'9401 Jane Street',
+'https://www.google.com/maps?q=9401+jane+street&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjYhaXR7oTsAhXBaM0KHX4ID4kQ_AUoAXoECA0QAw',
+'https://www.mackenziehealth.ca/en/about-us/get-the-latest-information-on-covid-19.aspx',
+'Tuesdays and Thursdays from 11:30 a.m. to 6:30 p.m.',
+'None',
+'Book an appointment before going in 905-883-1212 ext. 2004'
+),
+('Markham Stouffville Hospital',
+'381 Church Street, Markham',
+'https://www.google.com/maps?q=markham+stouffville+hospital&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiGhbu874TsAhVEa80KHSKHAEQQ_AUoAXoECCgQAw',
+'https://www.msh.on.ca/about-us/covid-19-information-page#assessment',
+'Weekdays: 9 am - 7 pm, Weekends: 9 am - 5 pm, Holidays: 9 am - 5 pm',
+'None',
+'Patients who wish to be tested must register by calling 289-378-2419 before coming to the Assessment Centre.'
+),
+('Southlake Regional Health Centre',
+'596 Davis Dr, Newmarket, ON (tent by East entrance)',
+'https://www.google.com/maps/place/Southlake+Regional+Health+Centre/@44.0602343,-79.454313,17z/data=!3m1!4b1!4m5!3m4!1s0x882ad20a13133a5f:0x5f68e9c74c941e62!8m2!3d44.0602343!4d-79.4521243',
+'https://southlake.ca/covid-19/',
+'8 a.m. to 9:30 p.m. daily',
+'None',
+'Registration must be done over the phone before visiting the Assessment Centre. Please call 905-895-4521 ext. 2162, option #1',
+),
+('South Fletchers Sportsplex (Drive-thru)',
+'500 Ray Lawson Blvd, Brampton ((North parking lot)',
+'https://www.google.com/maps?q=500+Ray+Lawson+Blvd+Brampton,+ON+L6Y+5B3&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiI3JnV8YTsAhWVaM0KHQu2BjYQ_AUoAXoECAwQAw',
+'https://www.williamoslerhs.ca/patients-and-families/preparing-for-your-visit-or-stay/coronavirus-information-for-patients-families/assessment-centre-for-covid-19',
+'8:00 a.m. – 6:00 p.m.',
+'No children under 2',
+'None'
+),
+('Peel Memorial Centre for Integrated Health and Wellness',
+'20 Lynch Street, Brampton',
+'https://www.google.com/maps/place/20+Lynch+St,+Brampton,+ON+L6W+2Z8/@43.6902745,-79.7532397,17z/data=!3m1!4b1!4m5!3m4!1s0x882b158d7cfdc3d3:0x83d1b4d304d02cc6!8m2!3d43.6902706!4d-79.751051',
+'https://www.williamoslerhs.ca/patients-and-families/preparing-for-your-visit-or-stay/coronavirus-information-for-patients-families/covid-19-cold-and-flu-clinic',
+'September 15 to 30: 10:00 a.m. – 6:00 p.m seven days a week. Starting October 1: 10:00 a.m. – 8:00 p.m. seven days a week',
+'No children under 6 months',
+'None'
+),
+('Crescent Town Health Centre (Pop-Up)',
+'4 The Market Place, East York',
+'https://www.google.com/maps/place/4+the+Market+Pl,+East+York,+ON+M4C+5M1/@43.6977271,-79.2976585,16z/data=!4m5!3m4!1s0x89d4cc27bb295c41:0xfc85fa463d3a975f!8m2!3d43.6958499!4d-79.2921331',
+'https://www.toronto.ca/home/covid-19/covid-19-what-you-should-do/covid-19-have-symptoms-or-been-exposed/covid-19-assessment-centres/',
+'September 17– October 3, 2020: Monday to Saturday, 12 p.m. to 7 p.m.',
+'None',
+'Pop-up site'
+),
+('TNO Youth Centre (Pop-Up)',
+'45 Overlea Blvd, Unit 108',
+'https://www.google.com/maps/place/45+Overlea+Blvd,+Toronto,+ON+M4H+1C3/@43.7057953,-79.3482163,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4ccfb2fc0089f:0xa94cccc62bb25bfe!8m2!3d43.7057953!4d-79.3460276?shorturl=1',
+'September 29 – October 17, 2020: 12 pm to 7 pm daily',
+'Accepts all ages over 3 months',
+'Pop-up site'
+),
+('Humber River Hospital, Church Site',
+'200 Church St',
+'https://www.google.com/maps/place/200+Church+St,+York,+ON+M9N+1N7/@43.7093533,-79.5124167,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3118b84af455:0x799a0170e9cc1685!8m2!3d43.7093533!4d-79.510228?shorturl=1',
+'https://www.hrh.ca/covid-19-assessment-centre/',
+'Monday to Friday, 10 am to 6 pm. Saturday and Sunday, 9 am to 5 pm',
+'No children under the age of 2 years old',
+'None'
+)
+
+
 
   
 COMMIT;

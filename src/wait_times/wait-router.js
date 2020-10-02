@@ -30,6 +30,7 @@ waitRouter
 .post(jsonBodyParser, (req, res, next) => {
     const { location_id, wait, date, hour } = req.query;
 
+    
     const newWait = { 
         location_id,
         wait,
