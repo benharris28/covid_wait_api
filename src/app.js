@@ -5,6 +5,7 @@ const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const waitRouter = require('./wait_times/wait-router')
+const mapRouter = require('./map/map-router')
 
 
 const app = express()
@@ -23,6 +24,8 @@ app.get('/', (req, res) => {
 
 
 app.use('/api/waits', waitRouter)
+
+app.use('/api/map', mapRouter)
 
 app.use(function errorHandler(error, req, res, next ) {
     let response

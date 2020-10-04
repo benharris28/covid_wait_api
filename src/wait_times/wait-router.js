@@ -51,4 +51,17 @@ waitRouter
         .catch(next) 
 })
 
+waitRouter
+.route('/locations')
+.get((req, res, next) => {
+
+
+    WaitService.getLocations(
+        req.app.get('db')
+    )
+    .then(locations => {
+        res.json(locations)
+    })
+    .catch(next)
+})
 module.exports = waitRouter;

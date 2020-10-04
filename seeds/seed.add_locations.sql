@@ -1,6 +1,6 @@
 BEGIN;
 
-insert into locations (name, address, address_link, link, hours, age_restrictions, other_details)
+insert into locations (name, address, address_link, link, hours, age_restrictions, other_details, lat, lng)
 values
 ('Etobicoke General Hospital Drive-Thru – Humber Queen’s Plate Parking',
 '2 Janda Ct', 
@@ -8,7 +8,9 @@ values
 'http://www.williamoslerhs.ca/patients-and-families/preparing-for-your-visit-or-stay/coronavirus-information-for-patients-families/assessment-centre-for-covid-19', 
 '7 days/week; 8 a.m. to 6 p.m.', 
 'No children under the age of 2 years', 
-'None'
+'None',
+'43.7230577',
+'-79.6032094'
 ),
 ('Humber River Hospital, Reactivation Care Centre – Finch Site', 
 '2111 Finch Ave W', 
@@ -16,7 +18,9 @@ values
 'https://www.hrh.ca/covid-19/', 
 'Monday to Friday, 9 a.m. to 7 p.m., Saturday and Sunday, 9 a.m. to 4 p.m.', 
 'None', 
-'None'
+'None',
+'43.7547592',
+'-79.5281208'
 ),
 ('Michael Garron Hospital',
 '825 Coxwell Ave (outpatient clinic location in D-wing, 1st floor; accessed from Mortimer Avenue)',
@@ -24,7 +28,9 @@ values
 'https://www.tehn.ca/programs-services/covid-19-assessment-centre',
 '7 days/week, 8 a.m. to 8 p.m.',
 'None',
-'None'
+'None',
+'43.6898713',
+'-79.3270469'
 ),
 ('Mount Sinai Hospital', 
 '600 University Ave (Ground Floor)', 
@@ -32,7 +38,9 @@ values
 'https://www.sinaihealth.ca/coronavirus-covid-19-information/',
 'Monday to Friday: 8 am to 12 pm. – open for walk-ins, 12 p.m. to 4 p.m. – by appointment only',
 'None',
-'None'
+'None',
+'43.6575439',
+'-79.3922735'
 ),
 ('North York General Hospital',
 '4001 Leslie St (enter through Emergency Department)',
@@ -176,6 +184,33 @@ values
 'Monday to Friday, 10 am to 6 pm. Saturday and Sunday, 9 am to 5 pm',
 'No children under the age of 2 years old',
 'None'
+),
+('Mississauga Hospital - Clinical Administrative Building',
+'15 Bronte College Court, Mississauga',
+'https://www.google.com/maps/place/15+Bronte+College+Ct,+Mississauga,+ON+J4Y+0K7/@43.5724723,-79.608618,17z/data=!3m1!4b1!4m5!3m4!1s0x882b46f634c9b073:0x9620842980843e65!8m2!3d43.5724723!4d-79.6064293',
+'https://trilliumhealthpartners.ca/covid-19/A/assessment.html#starthere',
+'8:30 a.m - 7:30 p.m.',
+'No children under the age of 1 years old',
+'To reduce your wait time at the assessment centre, you can book a scheduled appointment - see site',
+'3'
+),
+('Credit Valley Hospital - Valley House',
+'2200 Eglinton Ave West, Mississauga',
+'https://www.google.com/maps/place/2200+Eglinton+Ave+W,+Mississauga,+ON+L5M+2N1/@43.5586088,-79.7054567,17z/data=!3m1!4b1!4m5!3m4!1s0x882b41868e1ae1e9:0x685a45155d6aa851!8m2!3d43.5586088!4d-79.703268',
+'https://trilliumhealthpartners.ca/covid-19/A/assessment.html#starthere',
+'8:30 a.m - 7:30 p.m.',
+'No children under the age of 1 years old',
+'To reduce your wait time at the assessment centre, you can book a scheduled appointment - see site',
+'3'
+),
+('Credit Valley Hospital - Drive thru',
+'2200 Eglinton Ave West, Mississauga (Level 1 Main Parking Garage)',
+'https://www.google.com/maps/place/2200+Eglinton+Ave+W,+Mississauga,+ON+L5M+2N1/@43.5586088,-79.7054567,17z/data=!3m1!4b1!4m5!3m4!1s0x882b41868e1ae1e9:0x685a45155d6aa851!8m2!3d43.5586088!4d-79.703268',
+'https://trilliumhealthpartners.ca/covid-19/A/assessment.html#starthere',
+'8:30 a.m - 7:30 p.m.',
+'No children under the age of 1 years old',
+'None',
+'3'
 )
 
 

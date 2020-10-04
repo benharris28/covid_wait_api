@@ -71,6 +71,12 @@ const WaitService = {
 
 
     },
+    getLocations(db) {
+        return db
+        .select('*')
+            .from('locations')
+
+    },
     insertWait(db, newWait) {
         return db
             .insert(newWait)
