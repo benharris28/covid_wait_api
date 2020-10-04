@@ -10,9 +10,9 @@ const MapService = {
             join (
             SELECT id as location_id,
             (3959 * acos( cos( radians(${lat}) ) * cos( radians( lat ) ) * cos( radians( lng ) - radians(${lng}) ) + sin( radians(${lat}) ) * sin( radians( lat ) ) ) ) AS distance
-            FROM locations) as s on s.location_id = locations.id and distance < 10
+            FROM locations) as s on s.location_id = locations.id and distance < 30
             ORDER BY distance 
-            LIMIT 20;`
+            LIMIT 25;`
                 )
 
                 return query.rows

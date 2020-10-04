@@ -48,7 +48,9 @@ values
 'https://nygh.on.ca/covid-19-updates',
 '7 days/week; 8 a.m. to 8 p.m.',
 'None',
-'None'
+'None',
+'43.7694685',
+'-79.3647713'
 ),
 ('North York General Hospital – Branson Site',
 '555 Finch Ave. W (North Entrance, immediately off Finch)',
@@ -56,7 +58,9 @@ values
 'https://nygh.on.ca/covid-19-updates',
 '7 days/week; 8 a.m. to 7 p.m.', 
 'None',
-'Dedicated front of the line service for community members who are elderly and under 12 years of age from 8:00am until 10:00am'
+'Dedicated front of the line service for community members who are elderly and under 12 years of age from 8:00am until 10:00am',
+'43.7724535',
+'-79.4503248'
 ),
 ('Scarborough Health Network – Birchmount Hospital',
 '3030 Birchmount Rd',
@@ -64,7 +68,9 @@ values
 'https://www.shn.ca/covid19-assess/',
 '7 days/week; 9:00 a.m. to 5:00 p.m.',
 'No children under the age of 1 year',
-'None'
+'None',
+'43.8023229',
+'-79.3109691'
 ),
 ('Scarborough Health Network – Centenary Hospital',
 '2867 Ellesmere Rd',
@@ -72,7 +78,9 @@ values
 'https://www.shn.ca/covid19-assess/',
 '7 days/week, 10 a.m. to 7 p.m.',
 'No children under the age of 1 year',
-'None'
+'None',
+'43.7803978',
+'-79.2067379'
 ),
 ('Sunnybrook Health Sciences Centre',
 '2075 Bayview Ave',
@@ -80,7 +88,9 @@ values
 'https://sunnybrook.ca/content/?page=novel-coronavirus-covid-19-assessment-centre',
 'Monday to Friday, 11 a.m. to 7:30 p.m., Saturday and Sunday, 9:30 a.m. to 5:30 p.m.',
 'No children under the age of 1 year',
-'None'
+'None',
+'43.7228457',
+'-79.3750636'
 ),
 ('UHN Toronto Western Hospital',
 '347 Bathurst St',
@@ -88,7 +98,9 @@ values
 'https://www.uhn.ca/Covid19',
 '7 days/week; 12 p.m. to 8 p.m. (last patient accepted at 7:30 p.m.)',
 'No children under the age of 1 year',
-'None'
+'None',
+'43.6525548',
+'-79.408055'
 ),
 ('Unity – St. Joseph’s Health Centre',
 '30 The Queensway - Sunnyside Building, Main Floor East',
@@ -96,7 +108,9 @@ values
 'https://unityhealth.to/patients-and-families/coronavirus-information-for-patients-and-families/',
 '7 days/week; 8 a.m. to 8 p.m. (last patient to be registered at 7:30 p.m., or earlier if testing capacity has been reached)',
 'No children under the age of 1 year',
-'None'
+'None',
+'43.6406878',
+'-79.4523261'
 ),
 ('Unity – St. Michael’s Hospital',
 '38 Shuter St',
@@ -104,7 +118,9 @@ values
 'https://unityhealth.to/patients-and-families/coronavirus-information-for-patients-and-families/',
 '7 days/week; 8 a.m. to 8 p.m. (last patient to be registered at 7:30 p.m., or earlier if testing capacity has been reached)',
 'No children under 6 months of age',
-'None'
+'None',
+'43.6546657',
+'-79.380202'
 ),
 ('Women’s College Hospital',
 '76 Grenville St',
@@ -112,7 +128,9 @@ values
 'https://www.womenscollegehospital.ca/patients-and-caregivers/updates-on-the-coronavirus-(2019-ncov)',
 '7 days/week, 8 a.m. to 8 p.m.',
 'No children under the age of 2 years',
-'None'
+'None',
+'43.6616205',
+'-79.3898251'
 ),
 ('Mackenzie Health - Richmond Hill Hospital',
 '10 Trench Street',
@@ -120,23 +138,30 @@ values
 'https://www.mackenziehealth.ca/en/about-us/get-the-latest-information-on-covid-19.aspx',
 'Monday to Friday from 10 a.m. to 9:30 p.m., Weekends and holidays from 10 a.m. to 5:30 p.m.',
 'None',
-'Book an appointment before going in 905-883-1212 ext. 2004'
+'Book an appointment before going in 905-883-1212 ext. 2004',
+'43.8704455',
+'-79.4529971'
 ),
 ('Mackenzie Health - Assessment Centre in Vaughan ',
 '9401 Jane Street',
-'https://www.google.com/maps?q=9401+jane+street&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjYhaXR7oTsAhXBaM0KHX4ID4kQ_AUoAXoECA0QAw',
+'https://www.google.com/maps/place/9401+Jane+St,+Maple,+ON+L6A+4H7/@43.8356142,-79.533992,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2f372c4f7863:0xfa4aa1ff2f440d64!8m2!3d43.8356142!4d-79.5318033',
 'https://www.mackenziehealth.ca/en/about-us/get-the-latest-information-on-covid-19.aspx',
 'Tuesdays and Thursdays from 11:30 a.m. to 6:30 p.m.',
 'None',
-'Book an appointment before going in 905-883-1212 ext. 2004'
+'Book an appointment before going in 905-883-1212 ext. 2004',
+'43.8356142',
+'-79.533992'
 ),
 ('Markham Stouffville Hospital',
 '381 Church Street, Markham',
-'https://www.google.com/maps?q=markham+stouffville+hospital&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiGhbu874TsAhVEa80KHSKHAEQQ_AUoAXoECCgQAw',
+'https://www.google.com/maps/place/Markham+Stouffville+Hospital/@43.8839836,-79.2341607,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4d7d83e14f46f:0xccbfaf52c54d36cb!8m2!3d43.8839836!4d-79.231972',
 'https://www.msh.on.ca/about-us/covid-19-information-page#assessment',
 'Weekdays: 9 am - 7 pm, Weekends: 9 am - 5 pm, Holidays: 9 am - 5 pm',
 'None',
-'Patients who wish to be tested must register by calling 289-378-2419 before coming to the Assessment Centre.'
+'Patients who wish to be tested must register by calling 289-378-2419 before coming to the Assessment Centre.',
+'43.8839836',
+'-79.2341607'
+
 ),
 ('Southlake Regional Health Centre',
 '596 Davis Dr, Newmarket, ON (tent by East entrance)',
@@ -145,14 +170,18 @@ values
 '8 a.m. to 9:30 p.m. daily',
 'None',
 'Registration must be done over the phone before visiting the Assessment Centre. Please call 905-895-4521 ext. 2162, option #1',
+'44.0602343',
+'-79.454313'
 ),
 ('South Fletchers Sportsplex (Drive-thru)',
 '500 Ray Lawson Blvd, Brampton ((North parking lot)',
-'https://www.google.com/maps?q=500+Ray+Lawson+Blvd+Brampton,+ON+L6Y+5B3&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiI3JnV8YTsAhWVaM0KHQu2BjYQ_AUoAXoECAwQAw',
+'https://www.google.com/maps/place/500+Ray+Lawson+Blvd,+Brampton,+ON+L6Y+5B3/@43.6527931,-79.7381452,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3fe098ad1e73:0x53d6625d1a8e9389!8m2!3d43.6527931!4d-79.7359565',
 'https://www.williamoslerhs.ca/patients-and-families/preparing-for-your-visit-or-stay/coronavirus-information-for-patients-families/assessment-centre-for-covid-19',
 '8:00 a.m. – 6:00 p.m.',
 'No children under 2',
-'None'
+'None',
+'43.6527931',
+'-79.7381452'
 ),
 ('Peel Memorial Centre for Integrated Health and Wellness',
 '20 Lynch Street, Brampton',
@@ -160,7 +189,9 @@ values
 'https://www.williamoslerhs.ca/patients-and-families/preparing-for-your-visit-or-stay/coronavirus-information-for-patients-families/covid-19-cold-and-flu-clinic',
 'September 15 to 30: 10:00 a.m. – 6:00 p.m seven days a week. Starting October 1: 10:00 a.m. – 8:00 p.m. seven days a week',
 'No children under 6 months',
-'None'
+'None',
+'43.6902745',
+'-79.7532397'
 ),
 ('Crescent Town Health Centre (Pop-Up)',
 '4 The Market Place, East York',
@@ -168,14 +199,18 @@ values
 'https://www.toronto.ca/home/covid-19/covid-19-what-you-should-do/covid-19-have-symptoms-or-been-exposed/covid-19-assessment-centres/',
 'September 17– October 3, 2020: Monday to Saturday, 12 p.m. to 7 p.m.',
 'None',
-'Pop-up site'
+'Pop-up site',
+'43.6977271',
+'-79.2976585'
 ),
 ('TNO Youth Centre (Pop-Up)',
 '45 Overlea Blvd, Unit 108',
 'https://www.google.com/maps/place/45+Overlea+Blvd,+Toronto,+ON+M4H+1C3/@43.7057953,-79.3482163,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4ccfb2fc0089f:0xa94cccc62bb25bfe!8m2!3d43.7057953!4d-79.3460276?shorturl=1',
 'September 29 – October 17, 2020: 12 pm to 7 pm daily',
 'Accepts all ages over 3 months',
-'Pop-up site'
+'Pop-up site',
+'43.7057953',
+'-79.3482163'
 ),
 ('Humber River Hospital, Church Site',
 '200 Church St',
@@ -183,7 +218,9 @@ values
 'https://www.hrh.ca/covid-19-assessment-centre/',
 'Monday to Friday, 10 am to 6 pm. Saturday and Sunday, 9 am to 5 pm',
 'No children under the age of 2 years old',
-'None'
+'None',
+'43.7093533',
+'-79.5124167'
 ),
 ('Mississauga Hospital - Clinical Administrative Building',
 '15 Bronte College Court, Mississauga',
@@ -192,7 +229,9 @@ values
 '8:30 a.m - 7:30 p.m.',
 'No children under the age of 1 years old',
 'To reduce your wait time at the assessment centre, you can book a scheduled appointment - see site',
-'3'
+'3',
+'43.5724723',
+'-79.608618'
 ),
 ('Credit Valley Hospital - Valley House',
 '2200 Eglinton Ave West, Mississauga',
@@ -201,7 +240,9 @@ values
 '8:30 a.m - 7:30 p.m.',
 'No children under the age of 1 years old',
 'To reduce your wait time at the assessment centre, you can book a scheduled appointment - see site',
-'3'
+'3',
+'43.5586088',
+'-79.7054567'
 ),
 ('Credit Valley Hospital - Drive thru',
 '2200 Eglinton Ave West, Mississauga (Level 1 Main Parking Garage)',
@@ -210,7 +251,9 @@ values
 '8:30 a.m - 7:30 p.m.',
 'No children under the age of 1 years old',
 'None',
-'3'
+'3',
+'43.5586088',
+'-79.7054567'
 )
 
 
