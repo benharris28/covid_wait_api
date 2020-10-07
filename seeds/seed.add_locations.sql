@@ -205,6 +205,7 @@ values
 ),
 ('TNO Youth Centre (Pop-Up)',
 '45 Overlea Blvd, Unit 108',
+'https://www.toronto.ca/home/covid-19/covid-19-what-you-should-do/covid-19-have-symptoms-or-been-exposed/covid-19-assessment-centres/',
 'https://www.google.com/maps/place/45+Overlea+Blvd,+Toronto,+ON+M4H+1C3/@43.7057953,-79.3482163,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4ccfb2fc0089f:0xa94cccc62bb25bfe!8m2!3d43.7057953!4d-79.3460276?shorturl=1',
 'September 29 – October 17, 2020: 12 pm to 7 pm daily',
 'Accepts all ages over 3 months',
@@ -229,7 +230,6 @@ values
 '8:30 a.m - 7:30 p.m.',
 'No children under the age of 1 years old',
 'To reduce your wait time at the assessment centre, you can book a scheduled appointment - see site',
-'3',
 '43.5724723',
 '-79.608618'
 ),
@@ -240,7 +240,6 @@ values
 '8:30 a.m - 7:30 p.m.',
 'No children under the age of 1 years old',
 'To reduce your wait time at the assessment centre, you can book a scheduled appointment - see site',
-'3',
 '43.5586088',
 '-79.7054567'
 ),
@@ -251,12 +250,8 @@ values
 '8:30 a.m - 7:30 p.m.',
 'No children under the age of 1 years old',
 'None',
-'3',
 '43.5586088',
 '-79.7054567'
-)
+);
 
-
-
-  
 COMMIT;
