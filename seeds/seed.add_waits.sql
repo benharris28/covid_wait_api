@@ -1,6 +1,6 @@
 BEGIN;
 
-INSERT INTO wait_times (location_id, wait, created_at, hour)
+INSERT INTO wait_times (location_id, wait, date, hour)
 VALUES
   (1, 90, '2020-09-22', 11),
   (1, 120, '2020-09-22', 11),
@@ -8,5 +8,5 @@ VALUES
   (2, 130, '2020-09-22', 11),
    (2, 60, '2020-09-22', 11),
     (3, 60, '2020-09-22', 11);
-  
+
   COMMIT;
